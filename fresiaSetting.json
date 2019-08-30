@@ -1,0 +1,95 @@
+{
+  "fearliteID": "secret",
+  "sagiriID": "secret",
+  "main": "secret",
+  "firstLetterCapital": false,
+  "commandPrefix": ".",
+  "checkPresence": false,
+  "showUserInConsole": false,
+  "gimageKey": "secret",
+  "gimageID": "secret",
+  "servers": [
+    {
+      "id": "secret",
+      "name": "secret",
+      "mainChannel": "secret",
+      "ignoreIDs": [],
+      "priorityIDs": [],
+      "replyChance": 100,
+      "typingbool": false,
+      "all_mode": false,
+      "reply_mode": [
+        {
+          "name": "english",
+          "use": true,
+          "desc": "English language reply",
+          "index": 0
+        },
+        {
+          "name": "indonesia",
+          "use": true,
+          "desc": "Indonesian language reply",
+          "index": 1
+        }
+      ],
+      "tooglegreet": true
+    },
+    {
+      "id": "secret",
+      "name": "secret",
+      "mainChannel": "secret",
+      "ignoreIDs": [],
+      "priorityIDs": [
+        {
+          "name": "secret",
+          "id": "!secret"
+        }
+      ],
+      "replyChance": "50",
+      "typingbool": false,
+      "all_mode": false,
+      "reply_mode": [
+        {
+          "name": "english",
+          "use": true,
+          "desc": "English language reply",
+          "index": 0
+        },
+        {
+          "name": "indonesia",
+          "use": true,
+          "desc": "Indonesian language reply",
+          "index": 1
+        }
+      ],
+      "tooglegreet": false
+    }
+  ],
+  "favoriteCommandList": [
+    "replychance",
+    "ignore",
+    "notice",
+    "addfavorite",
+    "removefavorite"
+  ],
+  "normalhelpList": [
+    "main",
+    "help",
+    "cal +params",
+    "tooglegreet",
+    "replylist",
+    "replymode",
+    "checknoticelist",
+    "all_mode",
+    "english",
+    "indonesia",
+    "gimage +query"
+  ],
+  "favoritehelpList": [
+    "replychance",
+    "ignore +mentionedUser +(optional)username",
+    "notice +mentionedUser",
+    "addfavorite +mentionedUser +(optional)username",
+    "removefavorite +mentionedUser"
+  ]
+}

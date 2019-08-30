@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "word": [
+        "How are you?", "what'sup"
+      ],
+      "replies": [
+        [
+          "good man",
+          "all good"
+        ],
+        [
+          "baik bro"
+        ]
+      ]
+    }
+  ]
+}

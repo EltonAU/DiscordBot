@@ -1,0 +1,13 @@
+{
+  "name": "assignment1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.io": "github:Woor/discord.io#gateway_v6",
+    "discord.io-gateway6": "^2.5.3",
+    "google-images": "^2.1.0"
+  }
+}
